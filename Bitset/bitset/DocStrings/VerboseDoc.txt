@@ -1,0 +1,12 @@
+Bitset class:
+
+Methods:
+  __init__(self, length) -- length is number of bits to store
+  set(self,[key]) -- key is index of bit to set or list of indices. If key is None, all bits will be set
+  reset(self,[key])
+  flip(self,[key])
+  __str__(self) -- returns a string representation of bits in class
+  __repr__(self)
+  __len__(self) -- returns number of bits stored
+  __getitem__(self,key) -- returns state of item (or list if key is list of ints)
+  __setitem__(self,key,item) -- sets or resets all indices in key
